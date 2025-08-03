@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fake Edu</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+
+<body>
+  
+  <!-- HEADER -->
+
+  <header>
+    <nav>
+      <a href="index.html"><img src="images/logo2.png"></a>
+
+      <div class="nav-links" id="navLinks">
+
+        <!-- Добавляем с пом. JS если onclick -> выпадающее меню закрывалось -->
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT FRONT-END</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>Welcome!</h1>
+
+      <h2>This website will help you learn how to make layout!</h2>
+      <p>HTML and CSS are easy and exiting!</p>
+
+      <a href="" class="start-button">START</a>
+
+    </div>
+
+  </header>
+
+
+  <!-- MAIN -->
+
+  <main>
+    <section class="course">
+
+    <h3>Learn the fundamentals of front-end<br>development</h3>
+
+    <p>We’ll guide you through building responsive websites that look great on all devices. You’ll explore real-world projects to practice your skills and understand modern UI/UX principles. No prior experience? No problem — this course is perfect for beginners ready to dive into the world of web development!</p>
+
+    <div class="row">
+      <div class="course-col">
+
+        <h3>HTML</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vitae aliquam repellendus rerum, voluptatem ratione minus non saepe expedita delectus reprehenderit esse quisquam maxime voluptates veniam ipsa, recusandae maiores animi?</p>
+      </div>
+
+      <div class="course-col">
+
+        <h3>CSS</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vitae aliquam repellendus rerum, voluptatem ratione minus non saepe expedita delectus reprehenderit esse quisquam maxime voluptates veniam ipsa, recusandae maiores animi?</p>
+      </div>
+
+      <div class="course-col">
+
+        <h3>Java Script</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vitae aliquam repellendus rerum, voluptatem ratione minus non saepe expedita delectus reprehenderit esse quisquam maxime voluptates veniam ipsa, recusandae maiores animi?</p>
+      </div>
+
+    </div>
+
+    </section>
+
+  </main>
+
+
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, exercitationem atque nisi<br>esse ipsam iste voluptatum dolores, totam fuga minima a autem natus officiis ducimus commodi<br>voluptatibus assumenda aliquid ea!</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+
+    <p>Made with <i class="fa fa-heart-o"></i> by Masha</p>
+
+  </footer>
+
+  <!-- JavaScript for toggle menu -->
+  <script src="script.js"></script>
+
+</body>
+</html>
